@@ -1,0 +1,19 @@
+html{
+    background-color: #323232;
+}
+.column{
+    width: 50px;
+    display: inline-block;
+}
+
+.floor{
+    background-color: #ffa21c;
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+}
+
+.hight{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

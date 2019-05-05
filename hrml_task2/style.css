@@ -1,0 +1,12 @@
+.circle { 
+border-radius: 50%; 
+background-color: #edf5e5; 
+width: 200px; 
+height: 200px; 
+display: inline-block; 
+text-align: center; 
+line-height: 200px; 
+font-size: 50px; 
+border: 50px solid rgb(92, 245, 117); 
+border-right: 50px solid rgb(137, 253, 157); 
+}

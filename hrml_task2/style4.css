@@ -1,0 +1,14 @@
+.inline-item {
+    display: inline-block;
+    width: 60px;
+    margin-left: 20px;
+    -webkit-box-shadow: 10px 0 5px -2px #888;
+    box-shadow: 10px 0 5px -2px #888;
+    border-bottom-right-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+}
+
+.container{
+    background: linear-gradient(to top, #b2c27b, white);
+    line-height: 50px;
+}
