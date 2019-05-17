@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Основы HTML</title>
+</head>
+<body>
+<table cellpadding="5px" cellspacing="0"  border="1px" width="100%">
+    <thead height="100px">
+        <tr>
+            <td colspan="3" align="center" >
+                <h1>
+                        Макет задания по "Основы HTML"
+                </h1>
+            </td>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="3">© 2014 основы HTML</td>
+        </tr>
+    </tfoot>
+    <tr>
+        <td valign="top"  width="200px">
+            <h2>Меню</h2>
+            <ul type="none" >
+                <li><a href="">Главная</a></li>
+                <li><a href="">Продукты</a></li>
+                <li><a href="">Кафе</a></li>
+                <li><a href="">Рестораны</a></li>
+                <li><a href="">Вопросы</a></li>
+                <li><a href="">Акции</a></li>
+            </ul>
+        </td>
+        <td valign="top">
+            <h2 align="center">Основной контент</h2>
+            <p>
+                <img alt="Три Богатыря" align="right" width="100px" src="https://mayday.rocks/wp-content/uploads/2018/12/79.jpg">
+                &nbsp&nbsp&nbspДавно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).
+            </p>
+            <ul>
+                <li><i>Курсивный пункт</i><sup>2</sup></li>
+                <br>
+                <li><b>Жирный пункт</b></li>
+            </ul>
+            <h3>Список товаров в магазины</h3>
+            <table  align="center" width="100%" border="1px" cellspacing="0" >
+                <thead>
+                    <tr>
+                        <td align="center" ><b>Номер</b></td>
+                        <td align="center" ><b>Название</b></td>
+                        <td align="center" ><b>Цена</b></td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td align="center"  >1</td>
+                    <td align="center"  >Меч</td>
+                    <td align="center"  >10</td>
+                </tr>
+                <tr>
+                    <td align="center" >2</td>
+                    <td align="center" >Булава</td>
+                    <td align="center" >5</td>
+                </tr>
+                <tr>
+                    <td align="center" >3</td>
+                    <td align="center" >Верный конь</td>
+                    <td align="center" >15</td>
+                </tr>
+            </table>
+        </td>
+        <td  valign="top" width="200px">
+            <form action="" method="post">
+                <label for="login"> Логин:</label>
+                <br>
+                <input placeholder="Логин" type="text" id="login" name="login">
+                <br>
+                <label for="password"> Пароль:</label>
+                <br>
+               <input placeholder="Пароль" type="text" id="password" name="login">
+                <br> 
+                <select id="role" name="role">
+                    <option selected>Admin</option>
+                    <option>User</option>
+                    <option>Tester</option>               
+                </select>
+                <br>
+                <input type="checkbox" id="remember me" name="remember me">
+                <label for="remember me">Запомни меня</label>
+                <br>
+                <button type="enter" name="enter" value="enter">Вход</button>
+            </form>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,10 @@
+
+.form{
+    background-color: #fb2539;
+    padding: 50px;
+    width: 200px;
+    border: 10px solid #040004;
+    color: white;
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+}
