@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    height: 100%;
+
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.slider {
+
+    list-style-type: none
+}
+
+.slider li {
+    position: absolute;
+}
+.slider input {
+    display: none;
+}
+
+.slider label {
+
+    bottom: .5em;
+
+    cursor: pointer;
+    display: block;
+
+    position: absolute;
+    transition: .25s;
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+    border: 3px solid white;
+    background: black;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+.slider label:hover{
+    background: red;
+    box-shadow: 0px 0px 5px 5px white;
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+.slider label:after {
+    border-radius: 100%;
+    bottom: -.2em;
+    box-shadow: inset 0 0 0 .2em #111,
+    inset 0 2px 2px #000,
+    0 1px 1px hsla(0,0%,100%,.25);
+    content: '';
+    left: -.2em;
+    position: absolute;
+    right: -.2em;
+    top: -.2em;
+}
+
+.slider input:checked + label {
+    background-color: #fff;
+}
+.slider li:nth-child(1) label {
+    left: 5em;
+}
+.slider li:nth-child(2) label {
+    left: 15em;
+}
+.slider li:nth-child(3) label {
+    left: 25em;
+}
+.slider li:nth-child(4) label {
+    left: 35em;
+}
+
+
+.slider img {
+    height: 40em;
+    opacity: 0;
+    transition: .25s;
+    width: 70em;
+    vertical-align: top;
+    visibility: hidden;
+}
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
